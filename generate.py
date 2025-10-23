@@ -139,7 +139,7 @@ generated = decode(model.generate(context, max_new_tokens=500)[0].tolist())
 print(generated)
 
 # Also write to file like before
-with open('more.txt', 'w') as f:
+with open('output.txt', 'w') as f:
     f.write(decode(model.generate(context, max_new_tokens=10000)[0].tolist()))
 
 print("Generation done! Check 'more.txt' for the full output.")
