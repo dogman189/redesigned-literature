@@ -208,3 +208,5 @@ __marimo__/
 
 gpt_model.pth
 vocab.pkl
+output.txt
+more.txt

@@ -142,4 +142,4 @@ print(generated)
 with open('output.txt', 'w') as f:
     f.write(decode(model.generate(context, max_new_tokens=10000)[0].tolist()))
 
-print("Generation done! Check 'more.txt' for the full output.")
+print("Generation done! Check 'output.txt' for the full output.")
