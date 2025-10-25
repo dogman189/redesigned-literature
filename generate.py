@@ -5,8 +5,8 @@ import pickle
 block_size = 256
 device = torch.device("cuda")
 n_embd = 384
-n_head = 1
-n_layer = 3
+n_head = 6
+n_layer = 6
 dropout = 0.2
 
 # Load vocab
